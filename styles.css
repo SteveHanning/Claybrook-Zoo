@@ -1,28 +1,28 @@
 header {
-    background-color: blue;
+    background-color: #013006;
     color: white;
     padding: 1em;
     grid-area: header;
 }
 
 nav {
-    background-color: yellow;
+    background-color: #014e2e;
     grid-area: nav;
 }
 
 main {
-    background-color: darkblue;
+    background-color: #c1d32f;
     color: white;
     grid-area: main;
 }
 
 aside {
-    background-color: lightgreen;
+    background-color: #c1d32f;
     grid-area: aside;
 }
 
 footer {
-    background-color: darkgreen;
+    background-color: #013006;
     color: white;
     grid-area: footer;
 }
