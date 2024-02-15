@@ -1,12 +1,13 @@
 header {
     background-color: #013006;
-    color: white;
+    color: #c1d32f;
     padding: 1em;
     grid-area: header;
 }
 
 nav {
     background-color: #014e2e;
+    color: #c1d32f;
     grid-area: nav;
 }
 
