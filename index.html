@@ -5,21 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width:800px)">
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width:800px)">
   <title>Claybrook Zoo</title>
 </head>
 
 <body>
   <header>
+
+    <body id="clicked">
+      <a href="#clicked" class="on showNav"></a>
+      <a href="#" class="off">X</a>
+    </body>
+
+    <a class="showNav" href="#"></a>
     <h1>Welcome to Claybrook!</h1>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
 
   <main>
     <p>This is a website for Claybrook Zoo</p>
