@@ -10,12 +10,12 @@ header {
 }
 
 nav {
-    background-color: rgb(78, 147, 122);
+    background-color: #4e937a;
     grid-area: nav;
 }
 
 main {
-    background-color: rgb(197, 195, 198);
+    background-color: #c5c3c6;
     color: rgb(220, 220, 221);
     grid-area: main;
 }
