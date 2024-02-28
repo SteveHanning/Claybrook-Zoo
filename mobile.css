@@ -28,13 +28,15 @@ body {
 }
 
 nav {
-    display: none;
+    display: block;
     background-color: rgb(78, 147, 122);
     position: fixed;
     top: 0;
-    left: 50%;
+    right: 50%;
     width: 50%;
     height: 100vh;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s ease-in-out;
 }
 
 #clicked .on {
@@ -54,5 +56,5 @@ nav {
 }
 
 #clicked:target nav {
-    display: block;
+    transform: translate(0,0);
 }
