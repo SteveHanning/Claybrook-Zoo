@@ -29,7 +29,7 @@ body {
 
 nav {
     display: block;
-    background-color: rgb(78, 147, 122);
+    background-color: #758173;
     position: fixed;
     top: 0;
     left: 50%;
@@ -37,6 +37,10 @@ nav {
     height: 100vh;
     transform: translate(100%, 0);
     transition: transform 0.5s ease-in-out;
+}
+
+.nav{
+    background-color: #758173;
 }
 
 #clicked .on {
